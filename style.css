@@ -40,3 +40,21 @@ h2 {
     margin-bottom: 40px;
     position: relative;
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border-color);
+}
