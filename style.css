@@ -21,3 +21,16 @@ html {
     background-color: var(--bg-color);
     color: var(--text-main);
 }
+
+.section {
+    padding: 100px 20px 60px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
